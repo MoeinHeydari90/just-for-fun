@@ -8,7 +8,6 @@ for (let i = 0; i < classmates.length; i++) {
 
     const classmateDiv = document.createElement("div");
     classmateDiv.classList.add("classmate");
-
     classmateDiv.title = `${classmate.name}`;
 
     const img = document.createElement("img");
